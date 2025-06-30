@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ernest Mensah | Portfolio</title>
+  <link rel="icon" href="../media/silhouette.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="../css/homepage_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!--Navigation-->
+ <nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <button id="darkModeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon" id="darkIcon"></i>
+        <i class="fa-solid fa-sun" id="lightIcon" style="display:none;"></i>
+      </button>
+    </li>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>
+          <span class="static-text">Hi, I'm Ernest. A </span>
+          <span class="typewriter-container">
+            <span id="typewriter"></span>
+            <span class="cursor"></span>
+          </span>
+        </h1>
+        <p>Creating digital experiences with passion.</p>
+        <a href="#" class="btn">Download my resume</a>
+      </div>
+      <div class="hero-image">
+        <img src="../media/ernesto.JPG" alt="Ernest Mensah" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="../media/Screenshot 2025-02-22 162810.png" alt="Project 1">
+        <h3>Poncho Cross Studios</h3>
+        <p>Short description. Tools used: HTML, CSS, JavaScript.</p>
+        <a href="#" class="btn">Live Demo</a>
+        <a href="#" class="btn-outline">Code</a>
+      </div>
+      <!-- Add more projects -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="../media/eanm.jpg" alt="Your Name" loading="lazy">
+      </div>
+      <div class="about-text">
+  <h2>About <span class="highlight">Me</span></h2>
+  <h3>Junior Software Developer & Cybersecurity Enthusiast</h3>
+  <p>I'm a passionate technology professional with expertise in front-end development and a growing interest in cybersecurity. With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating responsive, user-friendly web applications that deliver exceptional digital experiences.</p>
+  
+  <p>Currently pursuing further education in computer science, I combine academic knowledge with practical skills to build innovative solutions. My cybersecurity interest drives me to implement secure coding practices in all my projects.</p>
+  
+  <p>When I'm not coding, you'll find me playing piano (my creative outlet), researching the latest tech trends, or contributing to open-source projects. I believe in continuous learning and staying at the forefront of technological advancements.</p>
+  
+  <div class="about-details">
+    <div class="detail-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Location: Accra, Ghana</span>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-phone"></i>
+      <span>Phone: +233 (0) 50 368 2803</span>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-envelope"></i>
+      <span>Email: eanmensah@gmail.com</span>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Education: Computer Science Student, Kumasi Technical University</span>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-code"></i>
+      <span>Specialties: Web Development, UI/UX</span>
+    </div>
+  </div>
+  
+  <div class="skill-bars">
+    <div class="skill">
+      <p>HTML/CSS</p>
+      <div class="progress-bar"><div class="progress html"> 90%</div></div>
+    </div>
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="progress-bar"><div class="progress js"> 75%</div></div>
+    </div>
+    <div class="skill">
+      <p>Python</p>
+      <div class="progress-bar"><div class="progress python"> 70%</div></div>
+    </div>
+    <div class="skill">
+      <p>Cybersecurity</p>
+      <div class="progress-bar"><div class="progress security"> 10%</div></div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section id="contact" class="contact">
+    <h2>Get In <span class="highlight">Touch</span></h2>
+    <div class="contact-container">
+      <form
+  action="https://formspree.io/f/{FORM_ID}"
+  class="fs-form"
+  target="_top"
+  method="POST"
+>
+  <div class="fs-field">
+    <label class="fs-label" for="name">Your Name</label>
+    <input class="fs-input" id="name" name="name" required />
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="email">Email</label>
+    <input class="fs-input" id="email" name="email" required />
+    <p class="fs-description">
+      This will help me respond to your query via an email.
+    </p>
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="message">Message</label>
+    <textarea
+      class="fs-textarea"
+      id="message"
+      name="message"
+      required
+    ></textarea>
+    <p class="fs-description">What would you like to discuss?</p>
+  </div>
+  <div class="fs-button-group">
+    <button class="btn" type="submit">Submit</button>
+  </div>
+</form>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>eanmensah@gmail.com</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Accra, Ghana</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/theernestmensah"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/eanmensah"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/_nanabanyin_"><i class="fab fa-twitter"></i></a>
+          <a href="http://instagram.com/e.a.n_mensah"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61565799748066"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>© <span id="year"></span> Ernest Abel Nanabanyin Mensah. All rights reserved.</p>
+      <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="../javascript/homepage.js"></script>
+</body>
+</html>
